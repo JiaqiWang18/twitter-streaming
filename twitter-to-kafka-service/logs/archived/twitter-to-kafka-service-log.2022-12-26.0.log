@@ -1,0 +1,289 @@
+2022-12-26 17:27:51 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 23014 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 17:27:51 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 17:27:51 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.255 seconds (JVM running for 0.769)
+2022-12-26 17:27:51 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-12-26 17:27:51 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 17:31:33 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 23721 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 17:31:33 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 17:31:34 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.29 seconds (JVM running for 0.736)
+2022-12-26 17:31:34 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 17:31:34 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 20:50:38 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 61106 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 20:50:38 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 20:50:39 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.355 seconds (JVM running for 0.691)
+2022-12-26 20:50:39 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 20:50:39 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 20:50:39 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-12-26 20:50:39 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 20:50:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
+Please use V2 filtered and sample volume stream as alternatives
+</title>
+</head>
+<body>
+<h2>HTTP ERROR: 403</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    
+Please use V2 filtered and sample volume stream as alternatives
+</pre>
+</body>
+</html>
+
+2022-12-26 20:50:39 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
+Please use V2 filtered and sample volume stream as alternatives
+</title>
+</head>
+<body>
+<h2>HTTP ERROR: 403</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    
+Please use V2 filtered and sample volume stream as alternatives
+</pre>
+</body>
+</html>
+
+2022-12-26 20:50:39 [SpringContextShutdownHook] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream
+2022-12-26 21:30:10 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 69222 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 21:30:10 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 21:30:10 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.294 seconds (JVM running for 0.881)
+2022-12-26 21:30:10 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 21:30:10 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:30:10 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:30:11 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2022-12-26 21:30:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-26 21:30:11 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.twitter.streaming.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:27)
+Caused by: java.lang.NullPointerException: null
+	at com.twitter.streaming.twitter.to.kafka.service.runner.impl.TwitterV2StreamHelper.connectStream(TwitterV2StreamHelper.java:89)
+	at com.twitter.streaming.twitter.to.kafka.service.runner.impl.TwitterV2KafkaStreamRunner.start(TwitterV2KafkaStreamRunner.java:37)
+	at com.twitter.streaming.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2022-12-26 21:33:26 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 70075 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 21:33:26 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 21:33:26 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.287 seconds (JVM running for 0.901)
+2022-12-26 21:33:26 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 21:33:26 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:33:26 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:33:27 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2022-12-26 21:33:27 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-26 21:33:27 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:779)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.twitter.streaming.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:27)
+Caused by: java.lang.NullPointerException: null
+	at com.twitter.streaming.twitter.to.kafka.service.runner.impl.TwitterV2StreamHelper.connectStream(TwitterV2StreamHelper.java:89)
+	at com.twitter.streaming.twitter.to.kafka.service.runner.impl.TwitterV2KafkaStreamRunner.start(TwitterV2KafkaStreamRunner.java:37)
+	at com.twitter.streaming.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:35)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:795)
+	... 5 common frames omitted
+2022-12-26 21:34:17 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 70237 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 21:34:17 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 21:34:18 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.349 seconds (JVM running for 1.23)
+2022-12-26 21:34:18 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 21:34:18 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:34:18 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:34:18 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2022-12-26 21:34:47 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 70340 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 21:34:47 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 21:34:48 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.372 seconds (JVM running for 0.844)
+2022-12-26 21:34:48 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 21:34:48 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:34:48 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:34:48 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @2_0Gogs it’s java
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AmschelKavka: I wish you a great big garden and blue skies.
+
+Franz Kafka, 1921.
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @vanglockkk @kafka_luc_
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ランキング:7位 (スポーツ)
+
+明治　ザバス　ホエイプロテイン　１００　リッチショコラ味　９８０ｇ　１パック...(14:35)
+
+https://t.co/rXBYe99c8o
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AmschelKavka: I wish you a great big garden and blue skies.
+
+Franz Kafka, 1921.
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text todo me dice que lea a Kafka hablándole a su padre y se me retuerce algo por dentro
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Javaをインストールするたび、3億のデバイスで走るジャバが見れて嬉しい
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text A SQL statement walks into a bar and sees two tables.
+It approaches, and asks "may I join you?"
+
+#programming #programmingjoke #programminghumor #Python #javascript #Java
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Send me anonymous messages! https://t.co/1AXNZvnngR
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Java_jigga Great taste
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Java_jigga Baby Spice
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング：15位❗(CPU)
+
+「Xeon E5-2430Lv2  (2.40GHz/ 6C/ 15MB)  PY-CP38X12」
+メーカ:富士通
+
+価格:¥204,010✨
+🔥売り切れ間近🔥(14:36)
+
+https://t.co/NwdRYcNTHw
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @myfear: Configure #Cryostat RBAC mapping in Cryostat Operator 2.2.0 | @rhdevelopers https://t.co/2X3rFcYmUZ
+#Java #jfr #redhat
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Luos_io The @MicroPetsBSC team has just posted the game design for their upcoming metaverse game PETROPOLIS!
+
+Check it out and see how expansive the game will be! 
+https://t.co/T8YHbZzrAw
+
+$SEVE12/27
+2022-12-26 21:36:27 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Introduction to Amazon EKS Observability Accelerator | Amazon Web Services #AmazonAWS #AmazonWebServices #aws #AWSCloud #cloud #CloudComputing #Dashboards #Grafana #haproxy #java #memcached #NGINX #Observability #Prometheus #terraform
+https://t.co/TgQQny6oeZ https://t.co/FHSmZt5q3Z
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AmschelKavka: I wish you a great big garden and blue skies.
+
+Franz Kafka, 1921.
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_quumii_: #2022年自分が選ぶ今年の4枚
+悩んだけどこの4枚かな🥳
+
+今年はJava版もやってみたりしてMinecraftの幅が広がった気がするw
+来年も楽しく遊ぶぞおおお٩( ᐛ )و
+
+ #Minecraft  #minecraft建築コミュ https…
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @yassmm1n: when franz kafka said “i’m doing badly, i’m doing well, whichever you prefer”
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BenPatelski: @RobvanderGraaf3 @hansvantelling @rblommestijn @EvaVlaar @dancalegria @JeroenPols @mauricedehond @thierrybaudet @GideonvMe…
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @javajazzmaui for dinner tonight. Eclectic #restaurant on #maui with a full #menu of everything yummy! #breakfast for dinner? No problem! @farzad_java_jazz @jackiesaltz40 @celebrationsbytori @travelingirl513 https://t.co/rOc1pJfDHL
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @GeologyTime: 🔥 An incredible moss Agate from Java, Indonesia, the ''moss'' is actually inclusions includes minerals of a green color em…
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @IMF_JaVa @drpepper @drpepper sponsor him!
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ronggowp: ☕GM☕ Wishing everyone a wonderful day, may the universe bless you with all good things 🙂🙏
+
+🌼 Inspired from Indonesian Javanes…
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Réu Que Atirou Em Cadela Para Defender Gansos Tem ...
+
+Ajuda aí, nos segue!
+
+#desenvolvedores #php #java #javascript
+
+https://t.co/QOgfJAJiTs
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @piotr_minkowski the virtual thread can be used，I don't know if netty will make a change
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AmschelKavka: I wish you a great big garden and blue skies.
+
+Franz Kafka, 1921.
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text これ
+俺VTuber（このツイートで言うと後者側）好きだけどVアンチが絵って言う理由も分かるんよね
+俺もガチ恋してるきもオタクのことは｢絵にガチ恋してるヤベェやつ｣って見てるし https://t.co/dhEZdBg5Bk
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Kodiak Furniture Oregon Trail Java Queen-size Futon Mattress Only, Model Number: YFKNLJP
+
+https://t.co/4Hpnm9dAPp https://t.co/rWNbqA3nAP
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @ronggowp Gm 🌄 beautiful work ❤️
+2022-12-26 21:37:05 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @kadimdostum72 Rojbaş 👍💐☕️
+2022-12-26 21:37:56 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 70942 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 21:37:56 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 21:37:56 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.371 seconds (JVM running for 0.715)
+2022-12-26 21:37:56 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 21:37:56 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:37:56 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 21:37:57 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AmschelKavka: I wish you a great big garden and blue skies.
+
+Franz Kafka, 1921.
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @sudalai_mari21 This appears to be a larger topic, but I am confident you will finish it; all that is required is dedication.
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text L.A.I.itu dulu namanya "Lembaga Alkitab Java Nederland".
+
+Lalu banyak Kristen Trinitas yg masuk ke Indonesia lalu Lembaga itu dikuasai oleb Orang2 Kristen Trinitas,lalu yg Aslinya kata sebut""TUAN/GUSTI""(📚Alkitab bahasa Jawa Kuno/Kraton) mereka ubah menjadi kata""TUHAN"".✍️
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @GoodReddit I agree TikTok sucks and Minecraft good
+But only java Minecraft 
+Bedrock kinda sucks
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: #Kubernetes Best Practices! #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #…
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング：16位❗(CPU)
+
+「Xeon E7-4830v2  (2.20GHz/ 10C/ 20MB) ×1 PY-CP39GB」
+メーカ:富士通
+
+価格:¥659,420✨
+🔥売り切れ間近🔥(14:39)
+
+https://t.co/6hyYYupBVA
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @kyomu__n: 2016年にキズナアイさんが提唱した「バーチャルYouTuber」という概念と、今でいう「VTuber」って、JavaとJavaScript以上に違う感ある。
+前者は非実在的な仮想の存在だという設定が守られているのに対して、後者は多くの場合中身が実在…
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @zobjobsGB: .NET Developer, .NET 7, C, Agile - Fleet
+at Technojobs
+NET Developer NET 7 C Agile Fleet Tech stack NET Developer NET 7 ASPN…
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: Top 7 Books You Should Know! #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #Re…
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @GeologyTime: 🔥 An incredible moss Agate from Java, Indonesia, the ''moss'' is actually inclusions includes minerals of a green color em…
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @javinpaul: Best 10  Microservice Design Patterns and Principles
+1. API Gateway
+2. Event Sourcing
+3. CQRS
+4. Saga
+5. BFF
+6. Circuit Brea…
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text W Take 👑 https://t.co/iTZVZutGQp
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text こちらRubyの要員が1名決まりまして残りRubyとPHPの要員1名ずつになりました。
+年の瀬ですがもし案件ある方見えましたら是非お願いします。。。 https://t.co/UZxGpkCP8s
+2022-12-26 21:39:32 [main] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Fu https://t.co/ZbwUnu3Rag
+2022-12-26 22:16:05 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 78448 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:16:05 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:16:05 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.285 seconds (JVM running for 0.857)
+2022-12-26 22:16:05 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:16:05 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:16:05 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:18:23 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 78885 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:18:23 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:18:24 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.366 seconds (JVM running for 1.266)
+2022-12-26 22:18:24 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:18:24 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:18:24 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:21:16 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 79426 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:21:16 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:21:16 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.366 seconds (JVM running for 0.793)
+2022-12-26 22:21:16 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:21:16 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:21:16 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:21:45 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 79533 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:21:45 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:21:45 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.374 seconds (JVM running for 0.797)
+2022-12-26 22:21:45 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:21:45 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:21:45 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:22:04 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 79595 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:22:04 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:22:04 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.326 seconds (JVM running for 0.765)
+2022-12-26 22:22:04 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:22:04 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:22:04 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:22:12 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 79619 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:22:12 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:22:13 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.369 seconds (JVM running for 0.75)
+2022-12-26 22:22:13 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:22:13 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:22:13 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:22:30 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 79681 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:22:30 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:22:30 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.36 seconds (JVM running for 0.917)
+2022-12-26 22:22:30 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:22:30 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:22:30 [main] INFO  c.t.s.t.t.k.s.r.i.TwitterKafkaStreamRunner - Starting mock stream
+2022-12-26 22:26:14 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 80726 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:26:14 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:26:14 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.287 seconds (JVM running for 0.835)
+2022-12-26 22:26:14 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:26:14 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:26:14 [main] INFO  c.t.s.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:26:14 [pool-1-thread-1] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus elit Maecenas adipiscing elit Maecenas Kafka purus libero sed sit
+2022-12-26 22:26:24 [pool-1-thread-1] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer lectus pulvinar purus amet Elasticsearch lectus lectus posuere
+2022-12-26 22:28:15 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on Jiaqis-MacBook-Pro.local with PID 81107 (/Users/jiaqiwang/IdeaProjects/twitter-streaming/twitter-to-kafka-service/target/classes started by jiaqiwang in /Users/jiaqiwang/IdeaProjects/twitter-streaming)
+2022-12-26 22:28:15 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2022-12-26 22:28:15 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.265 seconds (JVM running for 0.814)
+2022-12-26 22:28:15 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - hello there!
+2022-12-26 22:28:15 [main] INFO  c.t.s.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:28:15 [main] INFO  c.t.s.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2022-12-26 22:28:15 [pool-1-thread-1] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna sit amet malesuada Java amet malesuada
+2022-12-26 22:28:25 [pool-1-thread-1] INFO  c.t.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing ultricies porttitor massa ipsum Maecenas sit ipsum Java ultricies sit sit Fusce Lorem congue
