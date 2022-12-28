@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JiaqiWang18/twitter-streaming-config-repo
+          clone-on-start: true
+          username: jiaqiwang18
+          password: ENC(XC5Y0ck8fdXT5Ias2PK6pP8jVXUT+awNWvVgtK/70bxhrju+wiy4Vz4U6SefP7+C/Gtq0gPlfhBofafheB5vq2EPerSSx7d5kT8u4AIDfeg=)
+      fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: ENC(bKu67HS7ytugLl+YJxYarC72vh4hC89Rnqh5UTMl5kuUIk4pADhZ4FUfOKBIPVA9s8hXXdr6qfrUwDl00PRSMg==)
+jasypt:
+  encryptor:
+    password: ${JASYPT_ENCRYPTOR_PASSWORD}
