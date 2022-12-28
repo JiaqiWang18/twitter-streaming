@@ -1,0 +1,5 @@
+version: '3.7'
+
+networks:
+  application:
+    driver: bridge # containers can communicate with each other on the same host

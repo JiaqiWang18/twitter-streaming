@@ -1,4 +1,4 @@
-package com.twitter.streaming.twitter.to.kafka.service.config;
+package com.twitter.streaming.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

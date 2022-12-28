@@ -1,7 +1,7 @@
 package com.twitter.streaming.twitter.to.kafka.service.runner.impl;
 
 
-import com.twitter.streaming.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData;
+import com.twitter.streaming.config.TwitterToKafkaServiceConfigData;
 import com.twitter.streaming.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
