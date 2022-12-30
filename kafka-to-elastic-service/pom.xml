@@ -24,6 +24,18 @@
            <groupId>com.twitter.streaming</groupId>
            <artifactId>kafka-model</artifactId>
        </dependency>
+       <dependency>
+           <groupId>com.twitter.streaming</groupId>
+           <artifactId>elastic-model</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>com.twitter.streaming</groupId>
+           <artifactId>elastic-config</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>com.twitter.streaming</groupId>
+           <artifactId>elastic-index-client</artifactId>
+       </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
