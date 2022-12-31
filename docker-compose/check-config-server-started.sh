@@ -14,3 +14,5 @@ while [[ ! $curlResult == "200" ]]; do
   sleep 2
   curlResult=$(curl -s -o /dev/null -I -w "%{http_code}" http://config-server:8888/actuator/health)
 done
+
+./cnb/lifecycle/launcher
