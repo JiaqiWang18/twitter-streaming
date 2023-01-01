@@ -6,8 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.twitter.streaming")
-public class ElasticQueryWebClientApplication {
+public class ReactiveElasticQueryWebClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ElasticQueryWebClientApplication.class, args);
+        SpringApplication.run(ReactiveElasticQueryWebClientApplication.class, args);
     }
 }

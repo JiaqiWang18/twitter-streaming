@@ -37,7 +37,7 @@ public class QueryController {
 
     @GetMapping("/home")
     public String home(Model model) {
-        model.addAttribute("elasticQueryWebClientRequestModel",
+        model.addAttribute("elasticQueryClientRequestModel",
                 ElasticQueryWebClientRequestModel.builder().build());
         return "home";
     }
