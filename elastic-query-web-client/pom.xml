@@ -14,6 +14,10 @@
     <dependencies>
         <dependency>
             <groupId>com.twitter.streaming</groupId>
+            <artifactId>elastic-query-web-client-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.twitter.streaming</groupId>
             <artifactId>app-config-data</artifactId>
         </dependency>
         <dependency>

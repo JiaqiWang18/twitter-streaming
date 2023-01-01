@@ -18,6 +18,10 @@
        </dependency>
        <dependency>
            <groupId>com.twitter.streaming</groupId>
+           <artifactId>elastic-query-service-common</artifactId>
+       </dependency>
+       <dependency>
+           <groupId>com.twitter.streaming</groupId>
            <artifactId>elastic-config</artifactId>
        </dependency>
        <dependency>

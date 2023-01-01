@@ -1,7 +1,7 @@
-package com.twitter.streaming.elastic.query.service.tansformer;
+package com.twitter.streaming.elastic.query.service.common.transformer;
 
 import com.twitter.streaming.elastic.model.index.impl.TwitterIndexModel;
-import com.twitter.streaming.elastic.query.service.model.ElasticQueryServiceResponseModel;
+import com.twitter.streaming.elastic.query.service.common.model.ElasticQueryServiceResponseModel;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

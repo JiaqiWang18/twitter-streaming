@@ -1,4 +1,4 @@
-package com.twitter.streaming.elastic.query.web.client.exception;
+package com.twitter.streaming.elastic.query.web.client.common.exception;
 
 public class ElasticQueryWebClientException extends RuntimeException {
     public ElasticQueryWebClientException(String message) {

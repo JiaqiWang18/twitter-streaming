@@ -1,9 +1,9 @@
 package com.twitter.streaming.elastic.query.service.business.impl;
 
+import com.twitter.streaming.elastic.query.service.common.model.ElasticQueryServiceResponseModel;
 import com.twitter.streaming.elastic.model.index.impl.TwitterIndexModel;
 import com.twitter.streaming.elastic.query.client.service.ElasticQueryClient;
 import com.twitter.streaming.elastic.query.service.business.ElasticQueryService;
-import com.twitter.streaming.elastic.query.service.model.ElasticQueryServiceResponseModel;
 import com.twitter.streaming.elastic.query.service.model.assembler.ElasticQueryServiceResponseModelAssembler;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Service;

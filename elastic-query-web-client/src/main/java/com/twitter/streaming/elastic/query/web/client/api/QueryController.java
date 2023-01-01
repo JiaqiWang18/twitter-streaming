@@ -1,7 +1,7 @@
 package com.twitter.streaming.elastic.query.web.client.api;
 
-import com.twitter.streaming.elastic.query.web.client.model.ElasticQueryWebClientRequestModel;
-import com.twitter.streaming.elastic.query.web.client.model.ElasticQueryWebClientResponseModel;
+import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientRequestModel;
+import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientResponseModel;
 import com.twitter.streaming.elastic.query.web.client.service.ElasticQueryWebClient;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Controller;

@@ -17,6 +17,8 @@
         <module>common-util</module>
         <module>elastic-query-service</module>
         <module>elastic-query-web-client</module>
+        <module>elastic-query-service-common</module>
+        <module>elastic-query-web-client-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -72,6 +74,16 @@
             <dependency>
                 <groupId>com.twitter.streaming</groupId>
                 <artifactId>common-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.twitter.streaming</groupId>
+                <artifactId>elastic-query-service-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.twitter.streaming</groupId>
+                <artifactId>elastic-query-web-client-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

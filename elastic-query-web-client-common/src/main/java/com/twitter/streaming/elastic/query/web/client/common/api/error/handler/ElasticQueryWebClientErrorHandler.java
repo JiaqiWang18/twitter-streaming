@@ -1,6 +1,6 @@
-package com.twitter.streaming.elastic.query.web.client.api.error.handler;
+package com.twitter.streaming.elastic.query.web.client.common.api.error.handler;
 
-import com.twitter.streaming.elastic.query.web.client.model.ElasticQueryWebClientRequestModel;
+import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientRequestModel;
 import org.slf4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.AccessDeniedException;

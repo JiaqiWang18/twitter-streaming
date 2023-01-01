@@ -2,8 +2,8 @@ package com.twitter.streaming.elastic.query.service.model.assembler;
 
 import com.twitter.streaming.elastic.model.index.impl.TwitterIndexModel;
 import com.twitter.streaming.elastic.query.service.api.ElasticDocumentController;
-import com.twitter.streaming.elastic.query.service.model.ElasticQueryServiceResponseModel;
-import com.twitter.streaming.elastic.query.service.tansformer.ElasticToResponseModelTransformer;
+import com.twitter.streaming.elastic.query.service.common.model.ElasticQueryServiceResponseModel;
+import com.twitter.streaming.elastic.query.service.common.transformer.ElasticToResponseModelTransformer;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 

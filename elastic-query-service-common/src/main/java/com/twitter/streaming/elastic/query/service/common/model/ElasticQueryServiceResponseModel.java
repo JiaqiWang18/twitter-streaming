@@ -1,4 +1,4 @@
-package com.twitter.streaming.elastic.query.service.model;
+package com.twitter.streaming.elastic.query.service.common.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
