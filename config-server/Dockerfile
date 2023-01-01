@@ -1,8 +1,0 @@
-# java dockerfile
-FROM openjdk:11
-# copy jar file
-COPY target/config-server-0.0.1-SNAPSHOT.jar /usr/app/
-# set working directory
-WORKDIR /usr/app
-# set entrypoint
-ENTRYPOINT ["java", "-jar", "config-server-0.0.1-SNAPSHOT.jar"]
