@@ -51,6 +51,7 @@
         <jasypt-spring-boot-starter.version>3.0.3</jasypt-spring-boot-starter.version>
         <elastic.version>7.9.1</elastic.version>
         <springdoc-openapi-ui.version>1.5.0</springdoc-openapi-ui.version>
+        <postgresql.version>42.2.16</postgresql.version>
     </properties>
 
     <repositories>
@@ -142,6 +143,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-webflux</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>

@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -35,6 +36,7 @@ public class ElasticDocumentController {
         this.elasticQueryService = elasticQueryService;
     }
 
+    @PostAuthorize("hasPermission(returnObject, 'READ')")
     @Operation(summary = "Get all documents")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved all documents", content = {
@@ -52,6 +54,7 @@ public class ElasticDocumentController {
         return ResponseEntity.ok(response);
     }
 
+    @PreAuthorize("hasPermission(#id, 'ElasticQueryServiceResponseModel', 'READ')")
     @Operation(summary = "Get document by id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved document", content = {
@@ -86,20 +89,22 @@ public class ElasticDocumentController {
         return ResponseEntity.ok(getV2Model(response));
     }
 
-    @PreAuthorize("hasRole('APP_USER_ROLE') || hasAuthority('SCOPE_APP_USER_ROLE')")
-    @Operation(summary = "Get document by text")
+    @PreAuthorize("hasRole('APP_USER_ROLE') || hasRole('APP_SUPER_USER_ROLE') || hasAuthority('SCOPE_APP_USER_ROLE')")
+    @PostAuthorize("hasPermission(returnObject, 'READ')")
+    @Operation(summary = "Get elastic document by text.")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Successfully retrieved document", content = {
+            @ApiResponse(responseCode = "200", description = "Successful response.", content = {
                     @Content(mediaType = "application/vnd.api.v1+json",
                             schema = @Schema(implementation = ElasticQueryServiceResponseModel.class)
-                    ),
+                    )
             }),
-            @ApiResponse(responseCode = "400", description = "Bad request"),
-            @ApiResponse(responseCode = "500", description = "Internal server error")
+            @ApiResponse(responseCode = "400", description = "Not found."),
+            @ApiResponse(responseCode = "500", description = "Internal server error.")
     })
     @PostMapping("/get-document-by-text")
-    public ResponseEntity<List<ElasticQueryServiceResponseModel>> getDocumentByText(
-            @RequestBody @Valid ElasticQueryServiceRequestModel elasticQueryServiceRequestModel) {
+    public @ResponseBody
+    ResponseEntity<List<ElasticQueryServiceResponseModel>>
+    getDocumentByText(@RequestBody @Valid ElasticQueryServiceRequestModel elasticQueryServiceRequestModel) {
         List<ElasticQueryServiceResponseModel> response =
                 elasticQueryService.getDocumentsByText(elasticQueryServiceRequestModel.getText());
         LOG.info("Elasticsearch returned {} of documents on port {}", response.size(), port);
