@@ -5,7 +5,7 @@ server:
 
 elastic-query-web-client:
   webclient:
-    connect-timeout-ms: 10000
+    connection-timeout-ms: 10000
     read-timeout-ms: 10000
     write-timeout-ms: 10000
     max-in-memory-size: 10485760 # 10MB
@@ -31,6 +31,23 @@ elastic-query-web-client:
 spring:
   thymeleaf:
     cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: 'elastic-query-web-client'
+            client-secret: '10496209-d831-4a41-9282-b21aab0c4af6'
+            authorization-grant-type: authorization_code
+            redirect-uri: '{baseUrl}/login/oauth2/code/{registrationId}'
+            scope: openid
+        provider:
+          keycloak:
+            issuerUri: http://localhost:8081/auth/realms/twitter-streaming-realm
+
+security:
+  logout-success-url: http://localhost:8184/elastic-query-web-client
+  default-client-registration-id: keycloak
 
 user-config:
   username: test
