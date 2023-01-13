@@ -1,5 +1,6 @@
 package com.twitter.streaming.elastic.query.web.client.api;
 
+import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientAnalyticsResponseModel;
 import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientRequestModel;
 import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientResponseModel;
 import com.twitter.streaming.elastic.query.web.client.service.ElasticQueryWebClient;
@@ -43,10 +44,11 @@ public class QueryController {
     public String queryByText(@Valid ElasticQueryWebClientRequestModel requestModel,
                               Model model) {
         LOG.info("Query by text: {}", requestModel.getText());
-        List<ElasticQueryWebClientResponseModel> responseModelList = elasticQueryWebClient
+        ElasticQueryWebClientAnalyticsResponseModel responseModel = elasticQueryWebClient
                 .getDataByText(requestModel);
-        model.addAttribute("elasticQueryWebClientResponseModels", responseModelList);
+        model.addAttribute("elasticQueryWebClientResponseModels", responseModel.getQueryResponseModels());
         model.addAttribute("searchText", requestModel.getText());
+        model.addAttribute("wordCount", responseModel.getWordCount());
         model.addAttribute("elasticQueryWebClientRequestModel",
                 ElasticQueryWebClientRequestModel.builder().build());
         return "home";

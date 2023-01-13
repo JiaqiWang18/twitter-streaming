@@ -29,7 +29,7 @@ public class KafkaStreamsRunner implements StreamsRunner<String, Long> {
 
     private static final Logger LOG = LoggerFactory.getLogger(KafkaStreamsRunner.class);
 
-    private static final String REGEX = "\\w+";
+    private static final String REGEX = "\\W+";
 
     private final KafkaStreamsConfigData streamsConfigData;
 

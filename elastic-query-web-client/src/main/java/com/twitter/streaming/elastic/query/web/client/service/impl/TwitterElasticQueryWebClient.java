@@ -2,6 +2,7 @@ package com.twitter.streaming.elastic.query.web.client.service.impl;
 
 import com.twitter.streaming.config.ElasticQueryWebClientConfigData;
 import com.twitter.streaming.elastic.query.web.client.common.exception.ElasticQueryWebClientException;
+import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientAnalyticsResponseModel;
 import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientRequestModel;
 import com.twitter.streaming.elastic.query.web.client.common.model.ElasticQueryWebClientResponseModel;
 import com.twitter.streaming.elastic.query.web.client.service.ElasticQueryWebClient;
@@ -34,11 +35,10 @@ public class TwitterElasticQueryWebClient implements ElasticQueryWebClient {
     }
 
     @Override
-    public List<ElasticQueryWebClientResponseModel> getDataByText(ElasticQueryWebClientRequestModel requestModel) {
+    public ElasticQueryWebClientAnalyticsResponseModel getDataByText(ElasticQueryWebClientRequestModel requestModel) {
         LOG.info("Querying ElasticSearch for data with text: {}", requestModel.getText());
         return getWebClient(requestModel)
-                .bodyToFlux(ElasticQueryWebClientResponseModel.class)
-                .collectList()
+                .bodyToMono(ElasticQueryWebClientAnalyticsResponseModel.class)
                 .block();
     }
 
